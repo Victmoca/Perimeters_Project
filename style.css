@@ -1,0 +1,45 @@
+body {
+    font-family: sans-serif;
+    margin: 25px;
+    background-color: rgb(252, 252, 252);
+}
+
+h1 {
+    font-family: sans-serif;
+    color: black;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.button {
+    font-family: sans-serif;
+    display: block;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+    padding: 10px 20px;
+    color: #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px rgb(59, 58, 58);
+}
+
+.button_green {
+    background-color: rgb(68, 88, 68);
+}
+
+.button_green:hover {
+    background-color: rgba(68, 88, 68, 0.836);
+      transition: 1.0s;
+}
+
+.button_red {
+    background-color: rgb(255, 2, 2);
+}
+
+.button_red:hover {
+    background-color: rgba(255, 2, 2, 0.719);
+     transition: 1.0s;
+}
+
